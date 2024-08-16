@@ -44,7 +44,7 @@ const CompanySetup = () => {
             formData.append('file', input.file);
         }
         try {
-            const res = await axios.put(`https://job-portal-k4y1crk42-prabhdeep24s-projects.vercel.app/api/v1/company/update/${params.id}`, formData, {
+            const res = await axios.put(`https://job-portal-git-master-prabhdeep24s-projects.vercel.app/api/v1/company/update/${params.id}`, formData, {
                 headers: {
                     "Content-Type": "multipart/form-data"
                 },
