@@ -18,7 +18,7 @@ const CompanyCreate = () => {
 
     const createNewCompany = async () => {
         try {
-            const res = await axios.post("https://job-portal-git-master-prabhdeep24s-projects.vercel.app/api/v1/company/register", { companyName }, {
+            const res = await axios.post("https://jobportal-593p.onrender.com/api/v1/company/register", { companyName }, {
                 headers: {
                     'Content-Type': 'application/json'
                 },

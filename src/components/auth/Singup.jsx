@@ -44,7 +44,7 @@ const Singup = () => {
     }
     try {
       dispatch(setLoading(true));
-      const res = await axios.post("https://job-portal-git-master-prabhdeep24s-projects.vercel.app/api/v1/user/register", formData, {
+      const res = await axios.post("https://jobportal-593p.onrender.com/api/v1/user/register", formData, {
         headers: {
           "Content-Type": "multipart/form-data"
         },

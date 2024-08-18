@@ -23,7 +23,7 @@ const ApplicantsTable = () => {
 
     const statusHandler = async (status, id) => {
         try {
-            const res = await axios.post(`https://job-portal-git-master-prabhdeep24s-projects.vercel.app/api/v1/application/status/${id}/update`, {status}, {
+            const res = await axios.post(`https://jobportal-593p.onrender.com/api/v1/application/status/${id}/update`, {status}, {
                 withCredentials: true
             });
             if(res.data.success){ 

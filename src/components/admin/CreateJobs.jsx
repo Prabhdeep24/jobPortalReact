@@ -38,7 +38,7 @@ const CreateJobs = () => {
         e.preventDefault();
         try {
             dispatch(setLoading(true));
-            const res = await axios.post(`https://job-portal-git-master-prabhdeep24s-projects.vercel.app/api/v1/job/postjob`, input, {
+            const res = await axios.post(`https://jobportal-593p.onrender.com/api/v1/job/postjob`, input, {
                 headers: {
                     'Content-Type': 'application/json'
                 },
